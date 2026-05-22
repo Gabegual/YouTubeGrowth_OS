@@ -9,9 +9,9 @@
         string BannerUrl { get; set; }
         string Description { get; set; }
         DateTime CreatedDate { get; set; }
-        int TotalSubscribers { get; set; }
+        long TotalSubscribers { get; set; }
         long TotalViews { get; set; }
         int TotalVideos { get; set; }
-        double TotalWatchTime { get; set; }
+        double TotalWatchHours { get; set; }
     }
 }
