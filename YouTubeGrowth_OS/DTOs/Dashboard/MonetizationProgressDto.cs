@@ -2,17 +2,17 @@
 {
     public class MonetizationProgressDto
     {
-        string channelId { get; set; }
-        long currentSubscribers { get; set; }
-        long requiredSubscribers { get; set; }
-        int subscriberProgressPercentage { get; set; }
-        long subscriberRemaining { get; set; }
-        double currentWatchHours { get; set; }
-        double requiredWatchHours { get; set; }
-        double watchHoursRemaining { get; set; }
-        int monetizationProgressPercentage { get; set; }
-        string estimatedTimeToMonetization { get; set; }
-        string suggestedActions { get; set; }
+        public string ChannelId { get; set; } = string.Empty;
+        public long CurrentSubscribers { get; set; }
+        public long RequiredSubscribers { get; set; }
+        public int SubscriberProgressPercentage { get; set; }
+        public long SubscriberRemaining { get; set; }
+        public double CurrentWatchHours { get; set; }
+        public double RequiredWatchHours { get; set; }
+        public double WatchHoursRemaining { get; set; }
+        public int MonetizationProgressPercentage { get; set; }
+        public string EstimatedTimeToMonetization { get; set; } = string.Empty;
+        public string SuggestedActions { get; set; } = string.Empty;
 
 
 

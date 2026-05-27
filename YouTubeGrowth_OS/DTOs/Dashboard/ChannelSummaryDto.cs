@@ -2,16 +2,16 @@
 {
     public class ChannelSummaryDto
     {
-        string ChannelId { get; set; }
-        string ChannelName { get; set; }
-        string CreatorHandle { get; set; }
-        string AvatarUrl { get; set; }
-        string BannerUrl { get; set; }
-        string Description { get; set; }
-        DateTime CreatedDate { get; set; }
-        long TotalSubscribers { get; set; }
-        long TotalViews { get; set; }
-        int TotalVideos { get; set; }
-        double TotalWatchHours { get; set; }
+        public string ChannelId { get; set; } = string.Empty;
+        public string ChannelName { get; set; }  = string.Empty;
+        public string CreatorHandle { get; set; } = string.Empty;
+        public string AvatarUrl { get; set; } = string.Empty;
+        public string BannerUrl { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
+        public DateTime CreatedDate { get; set; }
+        public long TotalSubscribers { get; set; }
+        public long TotalViews { get; set; }
+        public int TotalVideos { get; set; }
+        public double TotalWatchHours { get; set; }
     }
 }

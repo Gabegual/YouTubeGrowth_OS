@@ -2,5 +2,7 @@
 {
     public class PerformanceChartDto
     {
+        public string DateRange { get; set; }
+        public List<string> ChartPoints { get; set; }
     }
 }
