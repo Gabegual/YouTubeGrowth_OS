@@ -2,7 +2,7 @@
 {
     public class PerformanceChartDto
     {
-        public string DateRange { get; set; }
-        public List<string> ChartPoints { get; set; }
+        public string DateRange { get; set; } = string.Empty;
+        public List<ChartPointDto> ChartPoints { get; set; } = new List<ChartPointDto>();
     }
 }

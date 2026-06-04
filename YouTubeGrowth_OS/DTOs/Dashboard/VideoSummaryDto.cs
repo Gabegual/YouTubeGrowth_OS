@@ -2,7 +2,7 @@
 {
     public class VideoSummaryDto
     {
-        public int VideoId { get; set; }
+        public string VideoId { get; set; } = string.Empty;
         public string VideoURL { get; set; } = string.Empty;
         public string Title { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
@@ -12,7 +12,7 @@
         public long Views { get; set; }
         public long Likes { get; set; }
         public List<string> Comments { get; set; } = new List<string>();
-        public long ClickThroughRate { get; set; }
+        public double ClickThroughRate { get; set; }
         public double AverageViewDuration { get; set; }
         public double RetentionRate { get; set; }
         public double WatchTime { get; set; }
